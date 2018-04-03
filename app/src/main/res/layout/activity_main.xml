@@ -7,7 +7,7 @@
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
-    <Button
+    <com.gc.materialdesign.views.ButtonRectangle
         android:id="@+id/buttonTopRight"
         android:layout_width="150dp"
         android:layout_height="150dp"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <Button
+    <com.gc.materialdesign.views.ButtonRectangle
         android:id="@+id/buttonDownLeft"
         android:layout_width="150dp"
         android:layout_height="150dp"
@@ -33,7 +33,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonTopLeft" />
 
-    <Button
+    <com.gc.materialdesign.views.ButtonRectangle
         android:id="@+id/buttonDownRight"
         android:layout_width="150dp"
         android:layout_height="150dp"
@@ -45,7 +45,7 @@
         app:layout_constraintStart_toEndOf="@+id/buttonDownLeft"
         app:layout_constraintTop_toBottomOf="@+id/buttonTopRight" />
 
-    <Button
+    <com.gc.materialdesign.views.ButtonRectangle
         android:id="@+id/buttonTopLeft"
         android:layout_width="150dp"
         android:layout_height="150dp"
